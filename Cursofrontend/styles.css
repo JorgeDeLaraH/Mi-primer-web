@@ -1,0 +1,36 @@
+/*Selector, propiedad y valor*/
+h1{
+    color: aqua;
+}
+        /*
+        <!--
+            DE tipo | div{}
+            De clase| .elemento{}
+            De id   | #id-del-elemento{}
+        De atributo | a[href=""]{}
+        Universal   | *{}
+        Ejemplos
+            -->*/
+*{
+    /*Este afecta a todo absolutamente todo*/
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Este se usa para elementos*/
+div{
+    background-color: aqua;
+}
+/*Este para clases*/
+.clase{
+    background-color: blueviolet;
+}
+/*Este para id*/
+#id{
+    background-color: brown;
+}
+/*Podemos hacerlo muy especifico*/
+a[href=""]{
+    background-color: chartreuse;
+}
+/*Aqui ira la mezcla de factores*/
+/*Pendiente clase de manana*/
