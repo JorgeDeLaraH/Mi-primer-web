@@ -32,5 +32,53 @@ div{
 a[href=""]{
     background-color: chartreuse;
 }
-/*Aqui ira la mezcla de factores*/
+/*Especificidad de factores*/
 /*Pendiente clase de manana*/
+/*Descendientes  | div p
+HIjo directo     | div>p
+Elemento adyacent| div+p
+Gen de hermanos  | div~p
+*/
+/*descendiente directo*/
+div>div{
+    background-color: blueviolet;
+}
+/*Clase es*/
+.es{
+    background: red;
+}
+/*section adyacente a div*/
+div + section{
+    background: palevioletred;
+}
+/*La p que sigue de div*/
+div~p{
+ color: aqua;   
+}
+/*pseudoclases   |  pseudoelementos
+:active          |  ::after
+:focus           |  ::before
+:hover           |  ::first-letter
+:nth-child()     |  ::placeholder
+*/
+p::first-letter{
+    color: blue;
+}
+p::before{
+    content: "😟";
+}
+p::after{
+    content: "🥰";
+}
+p{
+    color: salmon;
+}
+p:hover{
+    color: seagreen;
+}
+div p:nth-child(2){
+    color: black;
+}
+::placeholder{
+    color:tomato;
+}
