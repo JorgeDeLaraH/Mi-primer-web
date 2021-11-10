@@ -82,3 +82,16 @@ div p:nth-child(2){
 ::placeholder{
     color:tomato;
 }
+/*
+x 0 0 0 0 | !important
+  x 0 0 0 | Estilos de linea
+    x 0 0 | #id
+      x 0 |Clases, atributos y pseucoclases
+        x | Selector universal *
+*/
+#platzi{
+    color: blueviolet;
+}
+.master{
+    color: springgreen;
+}
